@@ -1,4 +1,4 @@
-const temaRef = document.querySelector ('.trocaDeTema')
+const temaRef = document.querySelector ('body')
 
 function changeTheme(){
     temaRef.classList.toggle ('dark')

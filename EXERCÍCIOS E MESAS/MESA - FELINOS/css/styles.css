@@ -17,12 +17,6 @@ h1 {
   color: grey;
 }
 
-h1.dark { 
-  background-color: rgb(19, 19, 19);
-  color: rgb(170, 170, 170);
-  border-color: black;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -50,37 +44,21 @@ h1.dark {
   margin-bottom: .2em;
 }
 
-body.dark {
+.dark {
   background-color: rgb(39, 39, 39);
 }
 
-
-/* ------------------------------ Estilos para o tema escuro (Dark-Mode) ----------------------------------------------- */
-
-/* Os seguintes estilos são os que usaremos para aplicar o modo escuro, 
-você terá que modificar os seletores a fim de poder resolver o exercício. /* 
-
-// A cor de fundo 
-{
-  background-color: rgb(39, 39, 39);
-}
-
-// Modificações no titulo 'A família dos felinos'
-{ 
+.dark h1 { 
   background-color: rgb(19, 19, 19);
   color: rgb(170, 170, 170);
   border-color: black;
 }
 
-
-// Modificações nos items
-{
+.dark .item {
   background-color: rgb(19, 19, 19);
   border-color: black;
 }
 
-// Modificações nos textos dos itens e cabeçalhos dos itens
-{
+.dark .item {
   color: rgb(230, 230, 230);
 }
-*/
